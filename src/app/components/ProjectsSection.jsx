@@ -23,6 +23,16 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "To-Do Lists Web Application",
+    description:
+      "[MongoDb, ExpressJs, React, NodeJs, Axios] To-Do Lists Web Application with support for users Login/Signup.",
+    image: "https://i.ibb.co/34Wjc4Y/Todolist-preview.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/noeysoftware/TodoList-Frontend",
+    previewUrl: "https://todo-list-frontend-alpha.vercel.app/",
+  },
+  {
+    id: 4,
     title: "E-commerce Web Application",
     description:
       "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
@@ -31,15 +41,6 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-  //   {
-  //     id: 4,
-  //     title: "Food Ordering Application",
-  //     description: "Project 4 description",
-  //     image: "/images/projects/4.gif",
-  //     tag: ["All", "Mobile"],
-  //     gitUrl: "/",
-  //     previewUrl: "/",
-  //   },
   //   {
   //     id: 5,
   //     title: "React Firebase Template",
