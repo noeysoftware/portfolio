@@ -14,16 +14,18 @@ const projectsData = [
   {
     id: 2,
     title: "Weather Forecast Web App",
-    description: " [HTML,CSS, Javascripts], Real time data from the API., Auto Visual changing",
-    image: "/images/projects/placeholder1.jpg",
+    description:
+      " [HTML,CSS, Javascripts], Real time data from the API., Auto Visual changing",
+    image: "https://i.ibb.co/xjscY0t/preview.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/noeysoftware/solarium",
+    previewUrl: "https://solarium-topaz.vercel.app/",
   },
   {
     id: 3,
     title: "E-commerce Web Application",
-    description: "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
+    description:
+      "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
     image: "/images/projects/placeholder1.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -69,6 +71,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.image}
+            webUrl={project.previewUrl}
           />
         ))}
       </div>
