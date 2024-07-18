@@ -6,13 +6,23 @@ const projectsData = [
     id: 1,
     title: "NextJs Portfolio Website",
     description: "[Next.Js, TailwindCss], Responsive and Animations.",
-    image: "/images/projects/placeholder1.jpg",
+    image: "https://i.ibb.co/SRr7crQ/Portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/noeysoftware/portfolio",
+    previewUrl: "https://portfolio-qc4y.vercel.app/",
   },
   {
     id: 2,
+    title: "E-commerce Web Application",
+    description:
+      "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
+    image: "https://i.ibb.co/tJh13Dg/Project.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jsd7-group1/group1_frontend",
+    previewUrl: "https://potioncafe.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Weather Forecast Web App",
     description:
       " [HTML,CSS, Javascripts], Real time data from the API., Auto Visual changing",
@@ -22,7 +32,7 @@ const projectsData = [
     previewUrl: "https://solarium-topaz.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "To-Do Lists Web Application",
     description:
       "[MongoDb, ExpressJs, React, NodeJs, Axios] To-Do Lists Web Application with support for users Login/Signup.",
@@ -31,16 +41,16 @@ const projectsData = [
     gitUrl: "https://github.com/noeysoftware/TodoList-Frontend",
     previewUrl: "https://todo-list-frontend-alpha.vercel.app/",
   },
-  {
-    id: 4,
-    title: "E-commerce Web Application",
-    description:
-      "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
-    image: "/images/projects/placeholder1.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  //  {
+  //    id: 5,
+  //    title: "E-commerce Web Application",
+  //    description:
+  //      "[MongoDb, ExpressJs, React, NodeJs] A Full-stack web app group project with CRUD operation.",
+  //    image: "https://i.ibb.co/tJh13Dg/Project.png",
+  //    tag: ["All", "Web"],
+  //    gitUrl: "https://github.com/jsd7-group1/group1_frontend",
+  //    previewUrl: "https://potioncafe.vercel.app/",
+  //  },
   //   {
   //     id: 5,
   //     title: "React Firebase Template",
